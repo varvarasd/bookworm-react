@@ -39,7 +39,7 @@ class LoginForm extends Component {
     const {data, errors} = this.state;
     return(
       <Form onSubmit={this.onSubmit}>
-        <Form.Field errror={!!errors.email} >
+        <Form.Field error={!!errors.email} >
           <label htmlFor="email">Email</label>
           <input 
             type="email"
